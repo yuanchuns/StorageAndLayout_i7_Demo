@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6AFEED17B611E000037A89 /* BookItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AFEEC17B611B500037A89 /* BookItem.m */; };
+		BC6AFEEE17B611E100037A89 /* TextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AFEEA17B6119000037A89 /* TextStorage.m */; };
+		BC6AFEF717B62A6600037A89 /* Basic Interaction.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC6AFEF117B62A2000037A89 /* Basic Interaction.rtf */; };
+		BC6AFEF817B62A6600037A89 /* book.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC6AFEF217B62A2000037A89 /* book.txt */; };
+		BC6AFEF917B62A6700037A89 /* detections.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC6AFEF317B62A2000037A89 /* detections.txt */; };
+		BCA9891E17B648150025B894 /* Dynamic Coloring.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC6AFEFA17B62E6500037A89 /* Dynamic Coloring.rtf */; };
+		BCA9891F17B648150025B894 /* View Layout.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC6AFEFB17B62E6500037A89 /* View Layout.rtf */; };
 		BCBF230617B5DB330006586F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBF230517B5DB330006586F /* Foundation.framework */; };
 		BCBF230817B5DB330006586F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBF230717B5DB330006586F /* CoreGraphics.framework */; };
 		BCBF230A17B5DB330006586F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBF230917B5DB330006586F /* UIKit.framework */; };
@@ -19,6 +26,7 @@
 		BCBF232117B5DB340006586F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBF230917B5DB330006586F /* UIKit.framework */; };
 		BCBF232917B5DB340006586F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCBF232717B5DB340006586F /* InfoPlist.strings */; };
 		BCBF232B17B5DB340006586F /* StorageAndLayout_i7_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF232A17B5DB340006586F /* StorageAndLayout_i7_DemoTests.m */; };
+		BCD7611617B7946700E70C02 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD7611517B7941C00E70C02 /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC6AFEE917B6119000037A89 /* TextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStorage.h; sourceTree = "<group>"; };
+		BC6AFEEA17B6119000037A89 /* TextStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStorage.m; sourceTree = "<group>"; };
+		BC6AFEEB17B611B500037A89 /* BookItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookItem.h; sourceTree = "<group>"; };
+		BC6AFEEC17B611B500037A89 /* BookItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookItem.m; sourceTree = "<group>"; };
+		BC6AFEF117B62A2000037A89 /* Basic Interaction.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Basic Interaction.rtf"; sourceTree = "<group>"; };
+		BC6AFEF217B62A2000037A89 /* book.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = book.txt; sourceTree = "<group>"; };
+		BC6AFEF317B62A2000037A89 /* detections.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = detections.txt; sourceTree = "<group>"; };
+		BC6AFEFA17B62E6500037A89 /* Dynamic Coloring.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Dynamic Coloring.rtf"; sourceTree = "<group>"; };
+		BC6AFEFB17B62E6500037A89 /* View Layout.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "View Layout.rtf"; sourceTree = "<group>"; };
 		BCBF230217B5DB330006586F /* StorageAndLayout_i7_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageAndLayout_i7_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBF230517B5DB330006586F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCBF230717B5DB330006586F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +65,8 @@
 		BCBF232617B5DB340006586F /* StorageAndLayout_i7_DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StorageAndLayout_i7_DemoTests-Info.plist"; sourceTree = "<group>"; };
 		BCBF232817B5DB340006586F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCBF232A17B5DB340006586F /* StorageAndLayout_i7_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageAndLayout_i7_DemoTests.m; sourceTree = "<group>"; };
+		BCD7611417B7941C00E70C02 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		BCD7611517B7941C00E70C02 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +93,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC6AFEF417B62A2700037A89 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				BC6AFEF617B62A2D00037A89 /* RTFs */,
+				BC6AFEF517B62A2900037A89 /* TXTs */,
+			);
+			name = Books;
+			sourceTree = "<group>";
+		};
+		BC6AFEF517B62A2900037A89 /* TXTs */ = {
+			isa = PBXGroup;
+			children = (
+				BC6AFEF217B62A2000037A89 /* book.txt */,
+				BC6AFEF317B62A2000037A89 /* detections.txt */,
+			);
+			name = TXTs;
+			sourceTree = "<group>";
+		};
+		BC6AFEF617B62A2D00037A89 /* RTFs */ = {
+			isa = PBXGroup;
+			children = (
+				BC6AFEFA17B62E6500037A89 /* Dynamic Coloring.rtf */,
+				BC6AFEFB17B62E6500037A89 /* View Layout.rtf */,
+				BC6AFEF117B62A2000037A89 /* Basic Interaction.rtf */,
+			);
+			name = RTFs;
+			sourceTree = "<group>";
+		};
 		BCBF22F917B5DB320006586F = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +154,11 @@
 		BCBF230B17B5DB330006586F /* StorageAndLayout_i7_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				BCBF231417B5DB340006586F /* AppDelegate.h */,
-				BCBF231517B5DB340006586F /* AppDelegate.m */,
-				BCBF231717B5DB340006586F /* Images.xcassets */,
+				BCBF233817B5DC0E0006586F /* Delegate */,
+				BCBF233717B5DC0C0006586F /* Model */,
+				BCBF233617B5DC090006586F /* View */,
+				BCBF233417B5DC030006586F /* Controllers */,
+				BCBF233917B5DC510006586F /* Sources */,
 				BCBF230C17B5DB330006586F /* Supporting Files */,
 			);
 			path = StorageAndLayout_i7_Demo;
@@ -142,6 +191,51 @@
 				BCBF232717B5DB340006586F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCBF233417B5DC030006586F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCD7611417B7941C00E70C02 /* TextViewController.h */,
+				BCD7611517B7941C00E70C02 /* TextViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BCBF233617B5DC090006586F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BCBF233717B5DC0C0006586F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC6AFEEB17B611B500037A89 /* BookItem.h */,
+				BC6AFEEC17B611B500037A89 /* BookItem.m */,
+				BC6AFEE917B6119000037A89 /* TextStorage.h */,
+				BC6AFEEA17B6119000037A89 /* TextStorage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BCBF233817B5DC0E0006586F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF231417B5DB340006586F /* AppDelegate.h */,
+				BCBF231517B5DB340006586F /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		BCBF233917B5DC510006586F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BC6AFEF417B62A2700037A89 /* Books */,
+				BCBF231717B5DB340006586F /* Images.xcassets */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +313,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA9891E17B648150025B894 /* Dynamic Coloring.rtf in Resources */,
+				BCA9891F17B648150025B894 /* View Layout.rtf in Resources */,
+				BC6AFEF717B62A6600037A89 /* Basic Interaction.rtf in Resources */,
+				BC6AFEF817B62A6600037A89 /* book.txt in Resources */,
+				BC6AFEF917B62A6700037A89 /* detections.txt in Resources */,
 				BCBF231017B5DB330006586F /* InfoPlist.strings in Resources */,
 				BCBF231817B5DB340006586F /* Images.xcassets in Resources */,
 			);
@@ -239,6 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD7611617B7946700E70C02 /* TextViewController.m in Sources */,
+				BC6AFEED17B611E000037A89 /* BookItem.m in Sources */,
+				BC6AFEEE17B611E100037A89 /* TextStorage.m in Sources */,
 				BCBF231617B5DB340006586F /* AppDelegate.m in Sources */,
 				BCBF231217B5DB340006586F /* main.m in Sources */,
 			);
@@ -435,6 +537,7 @@
 				BCBF233017B5DB340006586F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCBF233117B5DB340006586F /* Build configuration list for PBXNativeTarget "StorageAndLayout_i7_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +546,7 @@
 				BCBF233317B5DB340006586F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
